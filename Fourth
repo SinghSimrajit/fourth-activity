@@ -1,0 +1,22 @@
+  from ast import If, Str
+import string
+  
+  # Write a Python program that ask user to input two numbers. Check if both numbers are divisible by 2 or 3, if yes multiply them and print them on screen. If not, add them and then print it on screen. 
+    
+print('Please input number')
+  
+num1 = int(input())
+
+print('Please input number again')
+
+
+num2 = int(input())
+
+
+if num1 % 2==0 or num1 % 3 == 0:
+    if num2 % 2==0 or num2 % 3 == 0:
+        print(num1 * num2)
+    else:
+        print(num1 + num2)
+else:
+    print(num1+num2)
